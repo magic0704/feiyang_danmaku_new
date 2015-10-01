@@ -1,0 +1,51 @@
+//
+  doctype html
+  html
+    head
+        title= '飞扬17毕业典礼~~'
+        meta(name='viewport', content='width=device-width, initial-scale=1,maximum-scale=1')
+        link(rel='stylesheet',href='http://cdn.bootcss.com/jquery-mobile/1.4.3/jquery.mobile.css')
+
+        link(rel='stylesheet', href='/stylesheets/style.css')
+        link(rel='stylesheet', href='/stylesheets/index.css')
+        script(src='/javascripts/CommentCoreLibrary.js')
+    body
+        #my-player.abp(style='width:100%; height:200px; background-color: none; filter:alpha(Opacity=20);-moz-opacity:0.4;opacity:0.5;z-index:100;')
+            #my-comment-stage.container(style='width:100%;background-color: none;  height:200px;filter:alpha(Opacity=20);-moz-opacity:0.5;opacity:0.5;z-index:100;')
+        ul#messages
+        script(src='http://cdn.bootcss.com/socket.io/1.3.2/socket.io.js')
+        script(src='http://cdn.bootcss.com/jquery/2.1.3/jquery.js')
+        script(src='/javascripts/index.js')
+doctype html
+html
+  head
+    title= '飞扬17毕业典礼~楠姐最美~~'
+    meta(name='viewport', content='width=device-width, initial-scale=1,maximum-scale=1')
+    link(rel='stylesheet', href='http://cdn.bootcss.com/jquery-mobile/1.4.3/jquery.mobile.css')
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='stylesheet', href='/stylesheets/index.css')
+    script(src='/javascripts/CommentCoreLibrary.js')
+    style.
+      .my-player{
+      position: fixed;
+      z-index: 1;
+      top:60px;
+      left:295px;
+      height: 40px;
+      border: 0;
+      margin: 0;
+      padding: 0;
+      z-index: 2;
+      background-color: none;
+      background-color: transparent; /*效果同none*/
+      }
+  body
+    //#my-player.abp(style='width:100%; height:200px;filter:alpha(Opacity=80);')
+    #my-player.abp(style='width:100%; height:500px;filter:alpha(Opacity=80);')
+      #my-comment-stage.container(style='width:100%; height:500px; filter:alpha(Opacity=80);-moz-opacity:0.5;opacity:0.5;z-index:100;')
+      //#my-comment-stage.container(style='width:100%; height:200px; filter:alpha(Opacity=80);-moz-opacity:0.5;opacity:0.5;z-index:100;')
+    ul#messages
+    script(src='http://cdn.bootcss.com/socket.io/1.3.2/socket.io.js')
+    script(src='http://cdn.bootcss.com/jquery/2.1.3/jquery.js')
+    script(src='/javascripts/index.js')
+    
